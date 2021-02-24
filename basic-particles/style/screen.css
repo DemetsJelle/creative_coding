@@ -1,0 +1,19 @@
+/*Doe dit nooit (* selector) */
+:root {
+  --global-theme-color-base: hsl(5, 45%, 40%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  background-color: var(--global-theme-color-base);
+}
+
+canvas {
+  background-color: aquamarine;
+}
